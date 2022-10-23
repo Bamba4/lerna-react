@@ -1,0 +1,22 @@
+0 silly argv {
+0 silly argv   _: [ 'bootstrap' ],
+0 silly argv   'use-workspaces': true,
+0 silly argv   useWorkspaces: true,
+0 silly argv   lernaVersion: '6.0.1',
+0 silly argv   '$0': 'lerna'
+0 silly argv }
+1 notice cli v6.0.1
+2 verbose rootPath /Users/mac/Documents/lerna
+3 error JSONError: Unexpected token "}" (0x7D) in JSON at position 399 while parsing near "... build\",\n      \n    },\n    \"dependencies..." in packages/alpha/package.json
+3 error
+3 error [0m [90m 15 |[39m       [32m"prepare"[39m[33m:[39m [32m"yarn run build"[39m[33m,[39m[0m
+3 error [0m [90m 16 |[39m       [0m
+3 error [0m[31m[1m>[22m[39m[90m 17 |[39m     }[33m,[39m[0m
+3 error [0m [90m    |[39m     [31m[1m^[22m[39m[0m
+3 error [0m [90m 18 |[39m     [32m"dependencies"[39m[33m:[39m {[0m
+3 error [0m [90m 19 |[39m       [32m"react"[39m[33m:[39m [32m"*"[39m[33m,[39m[0m
+3 error [0m [90m 20 |[39m       [32m"prop-types"[39m[33m:[39m [32m"*"[39m[0m
+3 error
+3 error     at parseJson (/Users/mac/.nvm/versions/node/v14.20.1/lib/node_modules/lerna/node_modules/parse-json/index.js:29:21)
+3 error     at parse (/Users/mac/.nvm/versions/node/v14.20.1/lib/node_modules/lerna/node_modules/load-json-file/index.js:15:9)
+3 error     at module.exports (/Users/mac/.nvm/versions/node/v14.20.1/lib/node_modules/lerna/node_modules/load-json-file/index.js:18:47)
